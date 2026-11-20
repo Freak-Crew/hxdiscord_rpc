@@ -1,12 +1,12 @@
 {
-	"name": "hxdiscord_rpc",
+	"name": "freak_discord_rpc",
 	"url": "https://github.com/Freak-Crew/hxdiscord_rpc",
 	"license": "MIT",
 	"tags": ["cpp", "discord", "rpc"],
 	"description": "Discord Rich Presence for Haxe/hxcpp.",
-	"version": "2.0.0",
-	"releasenote": "Main-thread client, UTF-8 strings, faster reconnect, stub on unsupported targets.",
-	"contributors": ["MAJigsaw77"],
+	"version": "1.0.0",
+	"releasenote": "First release.",
+	"contributors": ["Mr.Chaos"],
 	"dependencies": {
 		"hxcpp": ""
 	}

@@ -3,7 +3,7 @@ package hxdiscord_rpc;
 #if (cpp && !(android || ios))
 import hxdiscord_rpc.Types;
 
-@:buildXml('<include name="${haxelib:hxdiscord_rpc}/project/Build.xml" />')
+@:buildXml('<include name="${haxelib:freak_discord_rpc}/project/Build.xml" />')
 @:include('discord_rpc.hpp')
 @:unreflective
 extern class Discord
@@ -45,7 +45,7 @@ extern class Discord
 	static function UpdateHandlers(handlers:cpp.RawPointer<DiscordEventHandlers>):Void;
 }
 
-@:buildXml('<include name="${haxelib:hxdiscord_rpc}/project/Build.xml" />')
+@:buildXml('<include name="${haxelib:freak_discord_rpc}/project/Build.xml" />')
 @:include('discord_extras.hpp')
 @:unreflective
 extern class DiscordExtras

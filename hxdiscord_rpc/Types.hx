@@ -64,7 +64,7 @@ extern abstract NativePremiumType(NativePremiumType_Impl)
 		return untyped this;
 }
 
-@:buildXml('<include name="${haxelib:hxdiscord_rpc}/project/Build.xml" />')
+@:buildXml('<include name="${haxelib:freak_discord_rpc}/project/Build.xml" />')
 @:include('discord_rpc.hpp')
 @:native('DiscordPremiumType')
 private extern class NativePremiumType_Impl {}
@@ -79,7 +79,7 @@ extern abstract NativeActivityPartyPrivacy(NativeActivityPartyPrivacy_Impl)
 		return untyped this;
 }
 
-@:buildXml('<include name="${haxelib:hxdiscord_rpc}/project/Build.xml" />')
+@:buildXml('<include name="${haxelib:freak_discord_rpc}/project/Build.xml" />')
 @:include('discord_rpc.hpp')
 @:native('DiscordActivityPartyPrivacy')
 private extern class NativeActivityPartyPrivacy_Impl {}
@@ -94,7 +94,7 @@ extern abstract NativeActivityType(NativeActivityType_Impl)
 		return untyped this;
 }
 
-@:buildXml('<include name="${haxelib:hxdiscord_rpc}/project/Build.xml" />')
+@:buildXml('<include name="${haxelib:freak_discord_rpc}/project/Build.xml" />')
 @:include('discord_rpc.hpp')
 @:native('DiscordActivityType')
 private extern class NativeActivityType_Impl {}
@@ -109,7 +109,7 @@ extern abstract NativeStatusDisplayType(NativeStatusDisplayType_Impl)
 		return untyped this;
 }
 
-@:buildXml('<include name="${haxelib:hxdiscord_rpc}/project/Build.xml" />')
+@:buildXml('<include name="${haxelib:freak_discord_rpc}/project/Build.xml" />')
 @:include('discord_rpc.hpp')
 @:native('DiscordStatusDisplayType')
 private extern class NativeStatusDisplayType_Impl {}
@@ -124,12 +124,12 @@ extern abstract NativeActivityJoinRequestReply(NativeActivityJoinRequestReply_Im
 		return untyped this;
 }
 
-@:buildXml('<include name="${haxelib:hxdiscord_rpc}/project/Build.xml" />')
+@:buildXml('<include name="${haxelib:freak_discord_rpc}/project/Build.xml" />')
 @:include('discord_rpc.hpp')
 @:native('DiscordActivityJoinRequestReply')
 private extern class NativeActivityJoinRequestReply_Impl {}
 
-@:buildXml('<include name="${haxelib:hxdiscord_rpc}/project/Build.xml" />')
+@:buildXml('<include name="${haxelib:freak_discord_rpc}/project/Build.xml" />')
 @:include('discord_rpc.hpp')
 @:unreflective
 @:structAccess
@@ -142,7 +142,7 @@ extern class DiscordButton
 	var url:cpp.ConstCharStar;
 }
 
-@:buildXml('<include name="${haxelib:hxdiscord_rpc}/project/Build.xml" />')
+@:buildXml('<include name="${haxelib:freak_discord_rpc}/project/Build.xml" />')
 @:include('discord_rpc.hpp')
 @:unreflective
 @:structAccess
@@ -176,7 +176,7 @@ extern class DiscordRichPresence
 	var instance:Bool;
 }
 
-@:buildXml('<include name="${haxelib:hxdiscord_rpc}/project/Build.xml" />')
+@:buildXml('<include name="${haxelib:freak_discord_rpc}/project/Build.xml" />')
 @:include('discord_rpc.hpp')
 @:unreflective
 @:structAccess
@@ -194,7 +194,7 @@ extern class DiscordUser
 	var bot:Bool;
 }
 
-@:buildXml('<include name="${haxelib:hxdiscord_rpc}/project/Build.xml" />')
+@:buildXml('<include name="${haxelib:freak_discord_rpc}/project/Build.xml" />')
 @:include('discord_rpc.hpp')
 @:unreflective
 @:structAccess

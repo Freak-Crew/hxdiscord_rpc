@@ -3,20 +3,20 @@
 	<pragma once="true" />
 
 	<files id="haxe">
-		<compilerflag value="-I${haxelib:hxdiscord_rpc}/project/discord-rpc/include" />
-		<compilerflag value="-I${haxelib:hxdiscord_rpc}/project/extras/include" />
+		<compilerflag value="-I${haxelib:freak_discord_rpc}/project/discord-rpc/include" />
+		<compilerflag value="-I${haxelib:freak_discord_rpc}/project/extras/include" />
 		<compilerflag value="-DDISCORD_DISABLE_IO_THREAD" if="DISCORD_DISABLE_IO_THREAD" />
 	</files>
 
 	<files id="__main__">
-		<compilerflag value="-I${haxelib:hxdiscord_rpc}/project/discord-rpc/include" />
-		<compilerflag value="-I${haxelib:hxdiscord_rpc}/project/extras/include" />
+		<compilerflag value="-I${haxelib:freak_discord_rpc}/project/discord-rpc/include" />
+		<compilerflag value="-I${haxelib:freak_discord_rpc}/project/extras/include" />
 		<compilerflag value="-DDISCORD_DISABLE_IO_THREAD" if="DISCORD_DISABLE_IO_THREAD" />
 	</files>
 
 	<files id="discord-rpc">
-		<compilerflag value="-I${haxelib:hxdiscord_rpc}/project/discord-rpc/include" />
-		<compilerflag value="-I${haxelib:hxdiscord_rpc}/project/rapidjson/include" />
+		<compilerflag value="-I${haxelib:freak_discord_rpc}/project/discord-rpc/include" />
+		<compilerflag value="-I${haxelib:freak_discord_rpc}/project/rapidjson/include" />
 		<compilerflag value="-DRAPIDJSON_SSE2" if="MSVC_VER" unless="HXCPP_M64 || HXCPP_ARM64" />
 		<compilerflag value="-DRAPIDJSON_NEON" if="MSVC_VER HXCPP_ARMV7 || MSVC_VER HXCPP_ARM64" />
 		<compilerflag value="-DDISCORD_DISABLE_IO_THREAD" if="DISCORD_DISABLE_IO_THREAD" />
@@ -27,28 +27,28 @@
 			<compilerflag value="-DNOSERVICE" />
 			<compilerflag value="-DNOIME" />
 
-			<file name="${haxelib:hxdiscord_rpc}/project/discord-rpc/src/connection_windows.cpp" />
-			<file name="${haxelib:hxdiscord_rpc}/project/discord-rpc/src/discord_register_windows.cpp" />
+			<file name="${haxelib:freak_discord_rpc}/project/discord-rpc/src/connection_windows.cpp" />
+			<file name="${haxelib:freak_discord_rpc}/project/discord-rpc/src/discord_register_windows.cpp" />
 		</section>
 
 		<section if="macos || linux">
-			<file name="${haxelib:hxdiscord_rpc}/project/discord-rpc/src/connection_unix.cpp" />
+			<file name="${haxelib:freak_discord_rpc}/project/discord-rpc/src/connection_unix.cpp" />
 		</section>
 
-		<file name="${haxelib:hxdiscord_rpc}/project/discord-rpc/src/discord_register_macos.mm" if="macos" />
-		<file name="${haxelib:hxdiscord_rpc}/project/discord-rpc/src/discord_register_linux.cpp" if="linux" />
+		<file name="${haxelib:freak_discord_rpc}/project/discord-rpc/src/discord_register_macos.mm" if="macos" />
+		<file name="${haxelib:freak_discord_rpc}/project/discord-rpc/src/discord_register_linux.cpp" if="linux" />
 
-		<file name="${haxelib:hxdiscord_rpc}/project/discord-rpc/src/discord_rpc.cpp" />
-		<file name="${haxelib:hxdiscord_rpc}/project/discord-rpc/src/rpc_connection.cpp" />
-		<file name="${haxelib:hxdiscord_rpc}/project/discord-rpc/src/serialization.cpp" />
+		<file name="${haxelib:freak_discord_rpc}/project/discord-rpc/src/discord_rpc.cpp" />
+		<file name="${haxelib:freak_discord_rpc}/project/discord-rpc/src/rpc_connection.cpp" />
+		<file name="${haxelib:freak_discord_rpc}/project/discord-rpc/src/serialization.cpp" />
 	</files>
 
 	<files id="discord-extras">
-		<compilerflag value="-I${haxelib:hxdiscord_rpc}/project/extras/include" />
+		<compilerflag value="-I${haxelib:freak_discord_rpc}/project/extras/include" />
 
-		<file name="${haxelib:hxdiscord_rpc}/project/extras/src/extras_windows.cpp" if="windows" />
-		<file name="${haxelib:hxdiscord_rpc}/project/extras/src/extras_macos.mm" if="macos" />
-		<file name="${haxelib:hxdiscord_rpc}/project/extras/src/extras_unix.cpp" if="linux" />
+		<file name="${haxelib:freak_discord_rpc}/project/extras/src/extras_windows.cpp" if="windows" />
+		<file name="${haxelib:freak_discord_rpc}/project/extras/src/extras_macos.mm" if="macos" />
+		<file name="${haxelib:freak_discord_rpc}/project/extras/src/extras_unix.cpp" if="linux" />
 	</files>
 
 	<target id="haxe">

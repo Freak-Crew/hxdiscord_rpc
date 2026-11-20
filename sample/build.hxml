@@ -1,4 +1,4 @@
 -cp .
 -main Main
--lib hxdiscord_rpc
+-lib freak_discord_rpc
 -cpp export

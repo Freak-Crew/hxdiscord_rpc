@@ -1,18 +1,18 @@
-# hxdiscord_rpc
+# freak_discord_rpc
 
 Discord Rich Presence for Haxe/hxcpp, built on [discord-rpc](https://github.com/discord/discord-rpc).
-Fork of [MAJigsaw77/hxdiscord_rpc](https://github.com/MAJigsaw77/hxdiscord_rpc).
+Fork of [MAJigsaw77/hxdiscord_rpc](https://github.com/MAJigsaw77/hxdiscord_rpc). The haxelib name is `freak_discord_rpc`, the package is still `hxdiscord_rpc`.
 
 ## Install
 
 ```
-haxelib git hxdiscord_rpc https://github.com/Freak-Crew/hxdiscord_rpc
+haxelib install freak_discord_rpc
 ```
 
 Lime project:
 
 ```xml
-<haxelib name="hxdiscord_rpc" />
+<haxelib name="freak_discord_rpc" />
 ```
 
 ## Platforms
