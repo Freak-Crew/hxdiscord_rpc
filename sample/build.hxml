@@ -1,0 +1,4 @@
+-cp .
+-main Main
+-lib hxdiscord_rpc
+-cpp export
